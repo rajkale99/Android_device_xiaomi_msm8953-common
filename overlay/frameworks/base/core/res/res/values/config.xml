@@ -348,4 +348,8 @@
          For example, a device with notification and battery lights that supports
          pulsating and RGB control would set this config to 75. -->
     <integer name="config_deviceLightCapabilities">107</integer>
+    
+    <!-- Does the device allow for manual subscription provisioning? Only works for multi-sim devices,
+         and currently depends on QC's proprietary telephony stack -->
+    <bool name="config_enableManualSubProvisioning">true</bool>
 </resources>
