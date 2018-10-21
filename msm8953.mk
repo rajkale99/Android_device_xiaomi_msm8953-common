@@ -144,8 +144,8 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0-impl
 
 # Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
+#PRODUCT_PACKAGES += \
+#    XiaomiDoze
 
 # DRM
 PRODUCT_PACKAGES += \
