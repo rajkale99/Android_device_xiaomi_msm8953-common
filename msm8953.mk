@@ -123,9 +123,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-service
 
-# Doze mode
-#PRODUCT_PACKAGES += \
-#    XiaomiDoze
+# Xiaomi Shit
+PRODUCT_PACKAGES += \
+    XiaomiShit
 
 # Display
 PRODUCT_PACKAGES += \
