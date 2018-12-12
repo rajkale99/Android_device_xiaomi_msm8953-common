@@ -117,16 +117,15 @@ PRODUCT_PACKAGES += \
     libmm-qcamera \
     Camera2 \
     vendor.qti.hardware.camera.device@1.0 \
-    vendor.qti.hardware.camera.device@1.0_vendor \
-    GCam
+    vendor.qti.hardware.camera.device@1.0_vendor
 
 # Configstore
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-service
 
 # Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
+#PRODUCT_PACKAGES += \
+#    XiaomiDoze
 
 # Display
 PRODUCT_PACKAGES += \
@@ -222,9 +221,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/uinput-goodix.idc:system/usr/idc/uinput-goodix.idc
 
 # IPA Manager
-PRODUCT_PACKAGES += \
-    ipacm \
-    IPACM_cfg.xml
+#PRODUCT_PACKAGES += \
+#   ipacm \
+#    IPACM_cfg.xml
 
 # IRQ
 PRODUCT_COPY_FILES += \

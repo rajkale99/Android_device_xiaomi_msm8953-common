@@ -204,3 +204,12 @@ persist.sys.usb.config.extra=none
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
+
+# xtended
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.xtended.version=$(XTENDED_XTRA_VERSION) \
+ro.modversion=$(XTENDED_MOD_VERSION) \
+ro.xtended.buildtype=$(XTENDED_BUILD_TYPE) \
+ro.xtended.display.version=$(XTENDED_DISPLAY_VERSION)
+
+
